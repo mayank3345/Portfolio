@@ -6,7 +6,7 @@ export const blogPosts = [
     excerpt:
       "Prepare for your next frontend interview with the most commonly asked React.js interview questions and answers.",
     category: "React",
-    date: "July 2026",
+    date: "July 2025",
     readTime: "15 min read",
     image: "/blog/react.jpg",
     featured: true,
@@ -18,7 +18,7 @@ export const blogPosts = [
     excerpt:
       "Master JavaScript concepts including closures, promises, async/await, hoisting, ES6, and more.",
     category: "JavaScript",
-    date: "July 2026",
+    date: "July 2025",
     readTime: "12 min read",
     image: "/blog/javascript.jpg",
   },
@@ -29,7 +29,7 @@ export const blogPosts = [
     excerpt:
       "Learn Node.js fundamentals, Express.js concepts, npm, middleware, authentication, and backend development.",
     category: "Node.js",
-    date: "July 2026",
+    date: "July 2025",
     readTime: "10 min read",
     image: "/blog/node.jpg",
   },
@@ -40,7 +40,7 @@ export const blogPosts = [
     excerpt:
       "Important MongoDB interview questions covering CRUD operations, aggregation, indexing, and performance.",
     category: "MongoDB",
-    date: "July 2026",
+    date: "July 2025",
     readTime: "10 min read",
     image: "/blog/mongodb.jpg",
   },
@@ -51,7 +51,7 @@ export const blogPosts = [
     excerpt:
       "A step-by-step roadmap to learn Next.js App Router, Server Components, SEO, and deployment.",
     category: "Next.js",
-    date: "July 2026",
+    date: "July 2025",
     readTime: "14 min read",
     image: "/blog/nextjs.jpg",
   },
@@ -60,9 +60,9 @@ export const blogPosts = [
     slug: "mern-stack-roadmap",
     title: "Complete MERN Stack Roadmap",
     excerpt:
-      "A beginner-to-advanced roadmap for becoming a Full Stack MERN Developer in 2026.",
+      "A beginner-to-advanced roadmap for becoming a Full Stack MERN Developer in 2025.",
     category: "Career",
-    date: "July 2026",
+    date: "July 2025",
     readTime: "18 min read",
     image: "/blog/mern.jpg",
   },

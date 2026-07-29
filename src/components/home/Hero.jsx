@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 import { ArrowRight, Download, Mail } from "lucide-react";
 
 import { heroData } from "@/data/home/hero";
-import { socialLinks } from "@/data/socialLinks";
 import { siteConfig } from "@/config/siteConfig";
 import { useSelector } from "react-redux";
 
@@ -39,25 +38,6 @@ export default function Hero() {
             <span className="inline-flex w-fit rounded-full border border-blue-500/30 bg-blue-500/10 px-4 py-2 text-sm font-medium text-blue-400">
               {heroData.badge}
             </span>
-
-            <div className="flex flex-wrap items-center gap-3">
-              {socialLinks.map((social) => {
-                const Icon = social.icon;
-
-                return (
-                  <a
-                    key={social.name}
-                    href={social.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={social.name}
-                    className={`inline-flex h-8 w-8 items-center justify-center rounded-full border border-primary text-primary transition-all duration-300 hover:-translate-y-1 ${social.hover}`}
-                  >
-                    <Icon className="h-4 w-4" />
-                  </a>
-                );
-              })}
-            </div>
           </div>
 
           {/* Heading */}

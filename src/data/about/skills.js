@@ -32,13 +32,7 @@ export const skillsData = {
     {
       icon: Server,
       title: "Backend",
-      skills: [
-        "Node.js",
-        "Express.js",
-        "REST API",
-        "JWT Authentication",
-        "Socket.io",
-      ],
+      skills: ["Node.js", "Express.js", "REST API", "JWT Authentication"],
     },
 
     {

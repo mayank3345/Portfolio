@@ -35,7 +35,7 @@ export async function generateMetadata({ params }) {
   ];
 
   return {
-    title: `${project.title} | Jabed Ali Mollah`,
+    title: `${project.title} | Aditya Singh`,
     description: project.shortDescription,
 
     keywords: [
@@ -45,7 +45,7 @@ export async function generateMetadata({ params }) {
       "Next.js",
       "React.js",
       "Portfolio",
-      "Jabed Ali Mollah",
+      "Aditya Singh",
     ],
 
     openGraph: {

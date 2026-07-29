@@ -11,7 +11,6 @@ const quickLinks = [
   { name: "About", href: "/about" },
   { name: "Services", href: "/services" },
   { name: "Projects", href: "/projects" },
-  { name: "Blog", href: "/blog" },
   { name: "Contact", href: "/contact" },
 ];
 
@@ -55,12 +54,12 @@ export default function Footer() {
             >
               <Image
                 src="/logo/web-app-manifest-512x512.png"
-                alt="Jabed Ali Mollah Portfolio Logo"
+                alt="Aditya Singh Portfolio Logo"
                 width={40}
                 height={40}
                 priority
               />
-              Jabed Ali
+              Aditya Singh
             </Link>
 
             <p
@@ -77,15 +76,15 @@ export default function Footer() {
               {[
                 {
                   name: "Github",
-                  url: "https://github.com/jabedalimollah",
+                  url: "https://github.com/mayank3345",
                 },
                 {
                   name: "Linkedin",
-                  url: "https://www.linkedin.com/in/jabedalimollah/",
+                  url: "https://www.linkedin.com/in/aditya-singh0100/",
                 },
                 {
                   name: "Mail",
-                  url: "mailto:jabedalimollah7@gmail.com",
+                  url: "mailto:adimayank55@gmail.com",
                 },
               ].map((item) => (
                 <a
@@ -167,36 +166,20 @@ export default function Footer() {
             </h3>
 
             <div className="mt-5 space-y-4">
-              <p>📍 West Bengal, India</p>
+              <p>📍 Bengaluru, India</p>
 
               {[
                 {
-                  text: "jabedalimollah7@gmail.com",
-                  href: "mailto:jabedalimollah7@gmail.com",
+                  text: "adimayank55@gmail.com",
+                  href: "mailto:adimayank55@gmail.com",
                 },
                 {
-                  text: "github.com/jabedalimollah",
-                  href: "https://github.com/jabedalimollah",
+                  text: "github.com/mayank3345",
+                  href: "https://github.com/mayank3345",
                 },
                 {
-                  text: "linkedin.com/in/jabedalimollah",
-                  href: "https://www.linkedin.com/in/jabedalimollah/",
-                },
-                {
-                  text: "instagram.com/jabedalimollah",
-                  href: "https://www.instagram.com/jabedalimollah",
-                },
-                {
-                  text: "facebook.com/jabedalimollah7",
-                  href: "https://www.facebook.com/jabedalimollah7",
-                },
-                {
-                  text: "youtube.com/@jabedalimollah",
-                  href: "https://www.youtube.com/@jabedalimollah",
-                },
-                {
-                  text: "x.com/JabedAliMollah7",
-                  href: "https://x.com/JabedAliMollah7",
+                  text: "linkedin.com/in/aditya-singh0100/",
+                  href: "https://www.linkedin.com/in/aditya-singh0100/",
                 },
               ].map((item) => (
                 <a
@@ -227,7 +210,7 @@ export default function Footer() {
               theme ? "text-slate-500" : "text-slate-600"
             }`}
           >
-            © {year} Jabed Ali Mollah. All rights reserved.
+            © {year} Aditya Singh. All rights reserved.
           </p>
 
           <button

@@ -27,7 +27,7 @@ export const myStoryData = {
       icon: Rocket,
       title: "My Goal",
       description:
-        "As a B.Tech Computer Science graduate (2026), my goal is to join an innovative team where I can contribute to impactful products, grow as a Full Stack MERN Developer, and build fast, scalable, accessible, and SEO-friendly web applications.",
+        "As a B.Tech Computer Science graduate (2025), my goal is to join an innovative team where I can contribute to impactful products, grow as a Full Stack MERN Developer, and build fast, scalable, accessible, and SEO-friendly web applications.",
     },
   ],
 };

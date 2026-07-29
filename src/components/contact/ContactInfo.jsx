@@ -16,50 +16,26 @@ const contacts = [
   {
     icon: <FaEnvelope />,
     title: "Email",
-    value: "jabedalimollah7@gmail.com",
-    href: "mailto:jabedalimollah7@gmail.com",
+    value: "adimayank55@gmail.com",
+    href: "mailto:adimayank55@gmail.com",
   },
   {
     icon: <FaLocationDot />,
     title: "Location",
-    value: "West Bengal, India",
+    value: "Bengaluru, India",
     href: "#",
   },
   {
     icon: <FaGithub />,
     title: "GitHub",
-    value: "github.com/jabedalimollah",
-    href: "https://github.com/jabedalimollah",
+    value: "github.com/mayank3345",
+    href: "https://github.com/mayank3345",
   },
   {
     icon: <FaLinkedin />,
     title: "LinkedIn",
-    value: "linkedin.com/in/jabedalimollah",
-    href: "https://www.linkedin.com/in/jabedalimollah/",
-  },
-  {
-    icon: <FaInstagram />,
-    title: "Instagram",
-    value: "@jabedalimollah",
-    href: "https://www.instagram.com/jabedalimollah",
-  },
-  {
-    icon: <FaFacebookF />,
-    title: "Facebook",
-    value: "facebook.com/jabedalimollah7",
-    href: "https://www.facebook.com/jabedalimollah7",
-  },
-  {
-    icon: <FaYoutube />,
-    title: "YouTube",
-    value: "@jabedalimollah",
-    href: "https://www.youtube.com/@jabedalimollah",
-  },
-  {
-    icon: <FaXTwitter />,
-    title: "X (Twitter)",
-    value: "@JabedAliMollah7",
-    href: "https://x.com/JabedAliMollah7",
+    value: "linkedin.com/in/aditya-singh0100/",
+    href: "https://www.linkedin.com/in/aditya-singh0100/",
   },
 ];
 

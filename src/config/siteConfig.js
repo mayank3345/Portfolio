@@ -2,14 +2,14 @@ export const siteConfig = {
   // ===========================
   // Basic Information
   // ===========================
-  name: "Jabed Ali Mollah",
-  shortName: "Jabed Ali",
+  name: "Aditya Singh",
+  shortName: "Aditya",
   role: "Full Stack MERN Developer",
 
-  title: "Jabed Ali Mollah | Full Stack MERN Developer",
+  title: "Aditya Singh | Full Stack MERN Developer",
 
   description:
-    "Jabed Ali Mollah is a Full Stack MERN Developer specializing in React.js, Next.js, Node.js, Express.js, MongoDB, JavaScript, and modern web applications.",
+    "Aditya Singh is a Full Stack MERN Developer specializing in React.js, Next.js, Node.js, Express.js, MongoDB, JavaScript, and modern web applications.",
 
   website: process.env.NEXT_PUBLIC_SITE_URL || "https://jabedali.vercel.app",
 
@@ -23,26 +23,25 @@ export const siteConfig = {
   // Contact
   // ===========================
 
-  email: "jabedalimollah7@gmail.com",
+  email: "adimayank55@gmail.com",
 
-  location: "West Bengal, India",
+  location: "Karnataka, India",
 
   // ===========================
   // SEO
   // ===========================
 
-  author: "Jabed Ali Mollah",
+  author: "Aditya Singh",
 
-  creator: "Jabed Ali Mollah",
+  creator: "Aditya Singh",
 
-  publisher: "Jabed Ali Mollah",
+  publisher: "Aditya Singh",
 
   keywords: [
-    "Jabed Ali Mollah",
-    "Jabed Ali",
-    "Jabed Ali Mollah Portfolio",
-    "Jabed Ali Portfolio",
-    "Jabed Portfolio",
+    "Aditya Singh",
+    "Aditya",
+    "Aditya Singh Portfolio",
+    "Aditya Portfolio",
     "Portfolio Website",
     "MERN Stack Developer",
     "Full Stack Developer",
@@ -67,21 +66,16 @@ export const siteConfig = {
   // Social Links
   // ===========================
 
-  github: "https://github.com/jabedalimollah",
+  github: "https://github.com/mayank3345",
 
-  linkedin: "https://www.linkedin.com/in/jabedalimollah/",
-
-  twitter: "https://x.com/JabedAliMollah7",
-  instagram: "https://www.instagram.com/jabedalimollah",
-  facebook: "https://www.facebook.com/jabedalimollah7",
-  youtube: "https://www.youtube.com/@jabedalimollah",
+  linkedin: "https://www.linkedin.com/in/aditya-singh0100/",
 
   // ===========================
   // Images
   // ===========================
 
-  profileImage: "/images/my_photos/jabed-ali-mollah-profile.webp",
-  myImage: "/images/my_photos/jabed-ali-mollah.webp",
+  profileImage: "/images/my_photos/profile.jpeg",
+  myImage: "/images/my_photos/profile.jpeg",
 
   ogImage: "/images/seo/og-image.png",
 
@@ -95,7 +89,7 @@ export const siteConfig = {
   // Resume
   // ===========================
 
-  resume: "/resume/Jabed-Ali-Mollah-Resume.pdf",
+  resume: "/resume/Resume2026_Aug.pdf",
 
   // ===========================
   // Theme
@@ -105,25 +99,3 @@ export const siteConfig = {
 
   backgroundColor: "#ffffff",
 };
-
-// export const siteConfig = {
-//   name: "Jabed Ali Mollah",
-
-//   shortName: "Jabed Ali",
-
-//   role: "Full Stack MERN Developer",
-
-//   location: "West Bengal, India",
-
-//   email: "jabedalimollah7@gmail.com",
-
-//   resume: "/resume/Jabed-Ali-Mollah-Resume.pdf",
-
-//   image: "/images/my_photos/profile.webp",
-
-//   github: "https://github.com/jabedalimollah",
-
-//   linkedin: "https://www.linkedin.com/in/jabedalimollah/",
-
-//   website: "https://jabedali.vercel.app",
-// };

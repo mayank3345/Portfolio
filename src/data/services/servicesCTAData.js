@@ -15,7 +15,7 @@ export const servicesCTAData = {
     },
     {
       type: "external",
-      href: "https://github.com/jabedalimollah",
+      href: "https://github.com/mayank3345",
       text: "View GitHub",
       icon: FaGithub,
     },

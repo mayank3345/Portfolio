@@ -5,11 +5,11 @@ import FAQ from "@/components/contact/FAQ";
 import ContactCTA from "@/components/contact/ContactCTA";
 
 export const metadata = {
-  title: "Contact | Jabed Ali Mollah",
+  title: "Contact | Aditya Singh",
   description:
-    "Get in touch with Jabed Ali Mollah, a Full Stack MERN Developer. Available for full-time jobs, internships, freelance work, and collaborations.",
+    "Get in touch with Aditya Singh, a Full Stack MERN Developer. Available for full-time jobs, internships, freelance work, and collaborations.",
   keywords: [
-    "Contact Jabed Ali Mollah",
+    "Contact Aditya Singh",
     "MERN Stack Developer",
     "React Developer",
     "Next.js Developer",

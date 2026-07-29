@@ -16,7 +16,7 @@ export const aboutCTAData = {
 
   resumeButton: {
     text: "Download Resume",
-    href: "/resume/Jabed-Ali-Mollah-Resume.pdf",
+    href: "/resume/Resume2026_Aug.pdf",
     icon: Download,
   },
 

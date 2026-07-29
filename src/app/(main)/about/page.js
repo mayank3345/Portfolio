@@ -9,7 +9,7 @@ import CertificateSection from "@/components/about/CertificateSection";
 export const metadata = {
   title: "About",
   description:
-    "Learn more about Jabed Ali Mollah, a Full Stack MERN Developer specializing in React.js, Next.js, Node.js, Express.js, and MongoDB.",
+    "Learn more about Aditya Singh, a Full Stack MERN Developer specializing in React.js, Next.js, Node.js, Express.js, and MongoDB.",
 };
 
 export default function AboutPage() {

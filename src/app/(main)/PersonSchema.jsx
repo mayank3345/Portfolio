@@ -5,21 +5,20 @@ export default function PersonSchema() {
 
     "@id": "https://jabedali.vercel.app/#person",
 
-    name: "Jabed Ali Mollah",
+    name: "Aditya Singh",
 
     url: "https://jabedali.vercel.app/",
 
-    image:
-      "https://jabedali.vercel.app/images/my_photos/jabed-ali-mollah-profile.webp",
+    image: "https://jabedali.vercel.app/images/my_photos/profile.jpeg",
 
     jobTitle: "MERN Stack Developer",
 
     description:
-      "Jabed Ali Mollah is a MERN Stack Developer and B.Tech Computer Science graduate specializing in React.js, Next.js, Node.js, Express.js, MongoDB, and modern web development.",
+      "Aditya Singh is a MERN Stack Developer and B.Tech Computer Science graduate specializing in React.js, Next.js, Node.js, Express.js, MongoDB, and modern web development.",
 
     sameAs: [
-      "https://github.com/jabedalimollah",
-      "https://www.linkedin.com/in/jabedalimollah/",
+      "https://github.com/mayank3345",
+      "https://www.linkedin.com/in/aditya-singh0100/",
     ],
   };
 

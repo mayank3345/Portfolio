@@ -48,7 +48,7 @@ export default function ContactHero() {
               theme ? "text-slate-300" : "text-slate-600"
             }`}
           >
-            I'm <strong>Jabed Ali Mollah</strong>, a Full Stack MERN Developer
+            I'm <strong>Aditya Singh</strong>, a Full Stack MERN Developer
             passionate about building modern, responsive, fast, and SEO-friendly
             web applications. I'm open to full-time opportunities, internships,
             freelance projects, and collaborations.
@@ -65,7 +65,7 @@ export default function ContactHero() {
             </Link>
 
             <a
-              href="https://github.com/jabedalimollah"
+              href="https://github.com/mayank3345"
               target="_blank"
               rel="noopener noreferrer"
               className={`inline-flex items-center rounded-xl border px-6 py-3 text-base font-semibold transition ${
@@ -79,7 +79,7 @@ export default function ContactHero() {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/jabedalimollah/"
+              href="https://www.linkedin.com/in/aditya-singh0100/"
               target="_blank"
               rel="noopener noreferrer"
               className={`inline-flex items-center rounded-xl border px-6 py-3 text-base font-semibold transition ${
@@ -97,7 +97,7 @@ export default function ContactHero() {
           <div className="mt-16 grid grid-cols-2 gap-6 md:grid-cols-4">
             {[
               { value: "MERN", label: "Tech Stack" },
-              { value: "2026", label: "B.Tech Graduate" },
+              { value: "2025", label: "B.Tech Graduate" },
               { value: "Remote", label: "Available" },
               { value: "100%", label: "Responsive" },
             ].map((item) => (

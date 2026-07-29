@@ -8,7 +8,7 @@ export const blogPosts = [
     image: "/blog/react.jpg",
     featured: true,
     readTime: "15 min read",
-    date: "July 2026",
+    date: "July 2025",
 
     content: `
 ## Introduction
@@ -45,11 +45,11 @@ Mastering React interview questions increases your chances of getting hired.
 
     featured: false,
 
-    date: "July 12, 2026",
+    date: "July 12, 2025",
 
     readTime: "20 min read",
 
-    author: "Jabed Ali Mollah",
+    author: "Aditya Singh",
 
     tags: [
       "JavaScript",

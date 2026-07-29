@@ -8,23 +8,23 @@ export const aboutHeroData = {
   highlight: "MERN Developer",
 
   description1:
-    "Hi, I'm Jabed Ali Mollah, a B.Tech (Computer Science & Engineering) graduate passionate about building modern, responsive, and SEO-friendly web applications using React, Next.js, Node.js, Express.js, and MongoDB.",
+    "Hi, I'm Aditya Singh, a B.Tech (Computer Science & Engineering) graduate passionate about building modern, responsive, and SEO-friendly web applications using React, Next.js, Node.js, Express.js, and MongoDB.",
 
   description2:
     "I enjoy transforming ideas into fast, scalable, and user-friendly digital experiences while continuously learning new technologies and best development practices.",
 
-  imageAlt: "Jabed Ali Mollah - Full Stack MERN Developer",
+  imageAlt: "Aditya Singh - Full Stack MERN Developer",
 
   infoCards: [
     {
       icon: GraduationCap,
-      title: "B.Tech (CSE) • 2026",
+      title: "B.Tech (CSE) • 2025",
       description: "Computer Science Graduate",
     },
 
     {
       icon: MapPin,
-      title: "West Bengal",
+      title: "Bengaluru, India",
       description: "India • Open to Relocate",
     },
 

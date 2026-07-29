@@ -24,7 +24,7 @@ export const projectsHeroData = {
     },
     {
       type: "external",
-      href: "https://github.com/jabedalimollah",
+      href: "https://github.com/mayank3345",
       text: "GitHub Profile",
       icon: FaGithub,
     },
@@ -32,7 +32,7 @@ export const projectsHeroData = {
 
   stats: [
     {
-      value: "10+",
+      value: "5+",
       label: "Completed Projects",
     },
     {

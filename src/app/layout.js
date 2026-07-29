@@ -19,18 +19,18 @@ export const metadata = {
   metadataBase: new URL(baseUrl),
 
   title: {
-    default: "Jabed Ali Mollah | MERN Stack Developer",
-    template: "%s | Jabed Ali Mollah",
+    default: "Aditya Singh | MERN Stack Developer",
+    template: "%s | Aditya Singh",
   },
 
   description:
-    "Jabed Ali Mollah is a MERN Stack Developer specializing in React.js, Next.js, Node.js, Express.js, MongoDB, JavaScript, and modern web technologies. Explore projects, skills, resume, and contact information.",
+    "Aditya Singh is a MERN Stack Developer specializing in React.js, Next.js, Node.js, Express.js, MongoDB, JavaScript, and modern web technologies. Explore projects, skills, resume, and contact information.",
 
   keywords: [
-    "Jabed Ali Mollah",
+    "Aditya Singh",
     "Jabed",
     "Jabed Ali",
-    "Jabed Ali Mollah Portfolio",
+    "Aditya Singh Portfolio",
     "Jabed Ali Portfolio",
     "Jabed Portfolio",
     "Portfolio Website",
@@ -53,19 +53,19 @@ export const metadata = {
     "Web Developer",
     "Portfolio",
     "Software Engineer",
-    "West Bengal",
+    "Bengaluru, India",
     "India",
   ],
 
   authors: [
     {
-      name: "Jabed Ali Mollah",
+      name: "Aditya Singh",
       url: baseUrl,
     },
   ],
 
-  creator: "Jabed Ali Mollah",
-  publisher: "Jabed Ali Mollah",
+  creator: "Aditya Singh",
+  publisher: "Aditya Singh",
 
   category: "Technology",
 
@@ -87,17 +87,17 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "Jabed Ali Mollah | MERN Stack Developer",
+    title: "Aditya Singh | MERN Stack Developer",
     description:
-      "Portfolio of Jabed Ali Mollah showcasing modern web development projects built with React.js, Next.js, Node.js, Express.js, MongoDB, and JavaScript.",
+      "Portfolio of Aditya Singh showcasing modern web development projects built with React.js, Next.js, Node.js, Express.js, MongoDB, and JavaScript.",
     url: baseUrl,
-    siteName: "Jabed Ali Mollah Portfolio",
+    siteName: "Aditya Singh Portfolio",
     images: [
       {
         url: "/images/seo/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Jabed Ali Mollah Portfolio",
+        alt: "Aditya Singh Portfolio",
       },
     ],
     locale: "en_US",
@@ -106,7 +106,7 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Jabed Ali Mollah | MERN Stack Developer",
+    title: "Aditya Singh | MERN Stack Developer",
     description:
       "Explore my portfolio featuring MERN Stack, React.js, Next.js, Node.js, MongoDB, and full-stack development projects.",
     images: ["/images/seo/twitter-image.png"],
@@ -118,7 +118,7 @@ export const metadata = {
     apple: "/apple-touch-icon.png",
   },
 
-  applicationName: "Jabed Ali Mollah Portfolio",
+  applicationName: "Aditya Singh Portfolio",
 
   referrer: "origin-when-cross-origin",
 

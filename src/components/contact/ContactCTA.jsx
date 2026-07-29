@@ -108,7 +108,7 @@ hover:bg-slate-100
             {/* Resume */}
 
             <a
-              href="/resume/Jabed-Ali-Mollah-Resume.pdf"
+              href="/resume/Resume2026_Aug.pdf"
               download
               className="
 inline-flex
@@ -132,7 +132,7 @@ hover:text-blue-700
             {/* Github */}
 
             <a
-              href="https://github.com/jabedalimollah"
+              href="https://github.com/mayank3345"
               target="_blank"
               rel="noopener noreferrer"
               className="
@@ -157,7 +157,7 @@ hover:text-blue-700
             {/* LinkedIn */}
 
             <a
-              href="https://www.linkedin.com/in/jabedalimollah/"
+              href="https://www.linkedin.com/in/aditya-singh0100/"
               target="_blank"
               rel="noopener noreferrer"
               className="

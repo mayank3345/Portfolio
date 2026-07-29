@@ -3,7 +3,7 @@ export const heroData = {
 
   title: "Hi, I'm",
 
-  name: "Jabed Ali Mollah",
+  name: "Aditya Singh",
 
   role: "Full Stack MERN Developer",
 
@@ -17,10 +17,10 @@ export const heroData = {
 
   secondaryButton: {
     text: "Resume",
-    href: "/resume/Jabed-Ali-Mollah-Resume.pdf",
+    href: "/resume/Resume2026_Aug.pdf",
   },
 
   experience: "MERN Stack",
 
-  projects: "10+",
+  projects: "5+",
 };

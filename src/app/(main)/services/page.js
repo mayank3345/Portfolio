@@ -6,7 +6,7 @@ import WhyChooseMe from "@/components/services/WhyChooseMe";
 import ServicesCTA from "@/components/services/ServicesCTA";
 
 export const metadata = {
-  title: "Services | Jabed Ali Mollah",
+  title: "Services | Aditya Singh",
   description:
     "Professional Full Stack MERN Developer offering React.js, Next.js, Node.js, Express.js, MongoDB, responsive web development, SEO optimization, and portfolio website development.",
   keywords: [

@@ -15,41 +15,30 @@ export const educationData = {
       degree: "Bachelor of Technology (B.Tech)",
       field: "Computer Science & Engineering",
       institution:
-        "Durgapur Institute of Advanced Technology & Management (DIATM)",
-      duration: "2023 – 2026",
-      location: "Durgapur, West Bengal",
+        "Chitkara University, Patiala, Punjab",
+      duration: "2021 – 2025",
+      location: "Patiala, Punjab",
       description:
         "Completed a Bachelor's degree in Computer Science & Engineering with a strong focus on web development, data structures, algorithms, database management, software engineering, and modern full-stack technologies.",
     },
-
     {
-      degree: "Diploma",
-      field: "Computer Science & Technology",
-      institution: "ABS Academy of Polytechnic",
-      duration: "2019 – 2022",
-      location: "Durgapur, West Bengal",
+      degree: "Higher Secondary (CBSE)",
+      field: "Science Stream",
+      institution: "Rani Laxmi Bai Memorial School, Sec-14,Indira Nagar, Lucknow",
+      duration: "2020",
+      location: "Lucknow, Uttar Pradesh",
       description:
-        "Built a strong foundation in programming, computer fundamentals, networking, operating systems, and software development while developing practical technical skills.",
+        "Completed Higher Secondary education under the Central Board of Secondary Education (CBSE), strengthening my foundation in science and analytical thinking before pursuing technical education.",
     },
 
     {
-      degree: "Higher Secondary (WBCHSE)",
-      field: "Arts",
-      institution: "Hat-Ashuria High School",
-      duration: "2018",
-      location: "Bankura, West Bengal",
-      description:
-        "Completed Higher Secondary education under the West Bengal Council of Higher Secondary Education (WBCHSE), strengthening my foundation in science and analytical thinking before pursuing technical education.",
-    },
-
-    {
-      degree: "Secondary (WBBSE)",
+      degree: "Secondary (CBSE)",
       field: "General Education",
-      institution: "Hat-Ashuria High School",
-      duration: "2016",
-      location: "Bankura, West Bengal",
+      institution: "Rani Laxmi Bai Memorial School, Sec-14,Indira Nagar, Lucknow",
+      duration: "2018",
+      location: "Lucknow, Uttar Pradesh",
       description:
-        "Completed Secondary education under the West Bengal Board of Secondary Education (WBBSE), building a strong academic foundation and developing an early interest in technology and computers.",
+        "Completed Secondary education under the Central Board of Secondary Education (CBSE), building a strong academic foundation and developing an early interest in technology and computers.",
     },
   ],
 };

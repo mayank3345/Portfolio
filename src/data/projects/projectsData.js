@@ -28,7 +28,7 @@ const projects = [
 
     live_link: "https://jcrudapp.netlify.app/",
 
-    github_link: "https://github.com/jabedalimollah/crud-app",
+    github_link: "https://github.com/mayank3345/crud-app",
 
     video_link: "",
 
@@ -79,7 +79,7 @@ const projects = [
 
     live_link: "https://jmovieshub.netlify.app/",
 
-    github_link: "https://github.com/jabedalimollah/movie-search-app",
+    github_link: "https://github.com/mayank3345/movie-search-app",
 
     video_link: "",
 
@@ -130,7 +130,7 @@ const projects = [
 
     live_link: "https://jabedalimollah.github.io/tic_tac_toe/",
 
-    github_link: "https://github.com/jabedalimollah/tic_tac_toe",
+    github_link: "https://github.com/mayank3345/tic_tac_toe",
 
     video_link: "",
 
@@ -173,7 +173,7 @@ const projects = [
 
     live_link: "https://jabedalimollah.netlify.app/",
 
-    github_link: "https://github.com/jabedalimollah/portfolio",
+    github_link: "https://github.com/mayank3345/portfolio",
 
     video_link: "",
 
@@ -221,7 +221,7 @@ const projects = [
 
     live_link: "https://contact-book-rose.vercel.app/",
 
-    github_link: "https://github.com/jabedalimollah/Contact-book",
+    github_link: "https://github.com/mayank3345/Contact-book",
 
     video_link: "",
 
@@ -277,7 +277,7 @@ const projects = [
 
     live_link: "https://estore-website.netlify.app/",
 
-    github_link: "https://github.com/jabedalimollah/estore",
+    github_link: "https://github.com/mayank3345/estore",
 
     video_link: "",
 
@@ -332,7 +332,7 @@ const projects = [
 
     live_link: "https://students-website-omega.vercel.app/",
 
-    github_link: "https://github.com/jabedalimollah/students-website",
+    github_link: "https://github.com/mayank3345/students-website",
 
     video_link: "",
 
@@ -385,7 +385,7 @@ const projects = [
 
     live_link: "https://notebook7.netlify.app/",
 
-    github_link: "https://github.com/jabedalimollah/notebook",
+    github_link: "https://github.com/mayank3345/notebook",
     video_link: "https://youtu.be/AZKxZ1CHnMg?si=6qnRm83q7sXj9D9x",
 
     features: [
@@ -459,7 +459,7 @@ const projects = [
 
     live_link: "https://chatit7.netlify.app/",
 
-    github_link: "https://github.com/jabedalimollah/chatit",
+    github_link: "https://github.com/mayank3345/chatit",
 
     video_link: "https://youtu.be/FyVyh1ebb8U?si=UrflRI-Tufg6asgA",
 
@@ -546,7 +546,7 @@ const projects = [
 
     live_link: "",
 
-    github_link: "https://github.com/jabedalimollah/aliet",
+    github_link: "https://github.com/mayank3345/aliet",
 
     video_link: "https://youtu.be/pdyayBR9mLI?si=tQbXg8tOTe7wEY9u",
     features: [

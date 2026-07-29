@@ -54,7 +54,7 @@ export default function ProjectCTA() {
 
             {/* GitHub */}
             <a
-              href="https://github.com/jabedalimollah"
+              href="https://github.com/mayank3345"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center rounded-xl border border-white/40 px-6 py-3 font-semibold text-white transition hover:bg-white hover:text-blue-700"
@@ -65,7 +65,7 @@ export default function ProjectCTA() {
 
             {/* Resume */}
             <a
-              href="/resume/Jabed-Ali-Mollah-Resume.pdf"
+              href="/resume/Resume2026_Aug.pdf"
               download
               className="inline-flex items-center justify-center rounded-xl border border-white/40 px-6 py-3 font-semibold text-white transition hover:bg-white hover:text-blue-700"
             >

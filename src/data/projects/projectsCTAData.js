@@ -14,12 +14,12 @@ export const projectsCTAData = {
 
     github: {
       text: "View GitHub",
-      href: "https://github.com/jabedalimollah",
+      href: "https://github.com/mayank3345",
     },
 
     resume: {
       text: "Resume",
-      href: "/resume/Jabed-Ali-Mollah-Resume.pdf",
+      href: "/resume/Resume2026_Aug.pdf",
     },
   },
 };

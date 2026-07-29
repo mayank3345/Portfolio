@@ -4,11 +4,11 @@ import ProjectsGrid from "@/components/projects/ProjectsGrid";
 import ProjectsCTA from "@/components/projects/ProjectsCTA";
 
 export const metadata = {
-  title: "Projects | Jabed Ali Mollah",
+  title: "Projects | Aditya Singh",
   description:
-    "Explore the portfolio projects of Jabed Ali Mollah, a Full Stack MERN Developer. View React.js, Next.js, Node.js, Express.js, MongoDB, and Tailwind CSS projects with live demos and GitHub repositories.",
+    "Explore the portfolio projects of Aditya Singh, a Full Stack MERN Developer. View React.js, Next.js, Node.js, Express.js, MongoDB, and Tailwind CSS projects with live demos and GitHub repositories.",
   keywords: [
-    "Jabed Ali Mollah",
+    "Aditya Singh",
     "MERN Stack Developer",
     "React Projects",
     "Next.js Projects",
