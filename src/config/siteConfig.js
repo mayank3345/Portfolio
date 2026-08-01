@@ -74,8 +74,8 @@ export const siteConfig = {
   // Images
   // ===========================
 
-  profileImage: "/images/my_photos/profile.jpeg",
-  myImage: "/images/my_photos/profile.jpeg",
+  profileImage: "/images/my_photos/profile.png",
+  myImage: "/images/my_photos/profile.png",
 
   ogImage: "/images/seo/og-image.png",
 

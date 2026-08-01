@@ -9,7 +9,7 @@ export default function PersonSchema() {
 
     url: "https://jabedali.vercel.app/",
 
-    image: "https://jabedali.vercel.app/images/my_photos/profile.jpeg",
+    image: "https://jabedali.vercel.app/images/my_photos/profile.png",
 
     jobTitle: "MERN Stack Developer",
 
