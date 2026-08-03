@@ -11,6 +11,7 @@
 html {
   scrollbar-width: thin;
   scrollbar-color: #8855ff #e9f0ff;
+  scroll-behavior: smooth;
 }
 
 /* Chrome, Edge, Safari */

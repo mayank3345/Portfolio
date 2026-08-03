@@ -53,10 +53,10 @@ export default function Footer() {
               }`}
             >
               <Image
-                src="/logo/web-app-manifest-512x512.png"
+                src="/logo/logo.png"
                 alt="Aditya Singh Portfolio Logo"
-                width={40}
-                height={40}
+                width={65}
+                height={65}
                 priority
               />
               Aditya Singh

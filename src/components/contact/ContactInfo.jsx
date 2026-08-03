@@ -77,20 +77,22 @@ export default function ContactInfo() {
 
         {/* Cards */}
         <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {contacts.map((item) => (
-            <a
-              key={item.title}
-              href={item.href}
-              target={item.href.startsWith("http") ? "_blank" : undefined}
-              rel={
-                item.href.startsWith("http") ? "noopener noreferrer" : undefined
-              }
-              className={`group rounded-2xl border p-6 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:border-blue-500 hover:shadow-xl ${
-                theme
-                  ? "border-slate-700 bg-slate-800"
-                  : "border-slate-200 bg-white"
-              }`}
-            >
+          {contacts.map((item) => {
+            const href = item.href?.trim();
+            const isExternalLink = Boolean(href && href.startsWith("http"));
+
+            return (
+              <a
+                key={item.title}
+                href={href || undefined}
+                target={isExternalLink ? "_blank" : undefined}
+                rel={isExternalLink ? "noopener noreferrer" : undefined}
+                className={`group rounded-2xl border p-6 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:border-blue-500 hover:shadow-xl ${
+                  theme
+                    ? "border-slate-700 bg-slate-800"
+                    : "border-slate-200 bg-white"
+                }`}
+              >
               <div
                 className={`flex h-14 w-14 items-center justify-center rounded-xl text-2xl transition group-hover:bg-blue-600 group-hover:text-white ${
                   theme
@@ -109,15 +111,16 @@ export default function ContactInfo() {
                 {item.title}
               </h3>
 
-              <p
-                className={`mt-2 break-words text-sm ${
-                  theme ? "text-slate-400" : "text-slate-600"
-                }`}
-              >
-                {item.value}
-              </p>
-            </a>
-          ))}
+                <p
+                  className={`mt-2 break-words text-sm ${
+                    theme ? "text-slate-400" : "text-slate-600"
+                  }`}
+                >
+                  {item.value}
+                </p>
+              </a>
+            );
+          })}
         </div>
 
         {/* Availability */}

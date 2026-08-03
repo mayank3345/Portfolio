@@ -5,6 +5,8 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 export default function ProjectLinks({ project }) {
   const theme = useSelector((state) => state.theme.darkMode);
+  const hasLiveLink = Boolean(project.live_link?.trim());
+  const hasGithubLink = Boolean(project.github_link?.trim());
 
   return (
     <section className={`py-20 ${theme ? "bg-slate-900" : "bg-white"}`}>
@@ -44,29 +46,33 @@ export default function ProjectLinks({ project }) {
           </p>
 
           <div className="mt-10 flex flex-wrap justify-center gap-5">
-            <a
-              href={project.live_link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center rounded-xl bg-blue-600 px-7 py-3 font-semibold text-white transition hover:bg-blue-700"
-            >
-              <FaExternalLinkAlt className="mr-2" />
-              Live Demo
-            </a>
+            {hasLiveLink && (
+              <a
+                href={project.live_link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center rounded-xl bg-blue-600 px-7 py-3 font-semibold text-white transition hover:bg-blue-700"
+              >
+                <FaExternalLinkAlt className="mr-2" />
+                Live Demo
+              </a>
+            )}
 
-            <a
-              href={project.github_link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`inline-flex items-center rounded-xl border px-7 py-3 font-semibold transition ${
-                theme
-                  ? "border-slate-600 text-slate-200 hover:border-blue-500 hover:text-blue-400"
-                  : "border-slate-300 text-slate-700 hover:border-blue-600 hover:text-blue-600"
-              }`}
-            >
-              <FaGithub className="mr-2" />
-              View Source Code
-            </a>
+            {hasGithubLink && (
+              <a
+                href={project.github_link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`inline-flex items-center rounded-xl border px-7 py-3 font-semibold transition ${
+                  theme
+                    ? "border-slate-600 text-slate-200 hover:border-blue-500 hover:text-blue-400"
+                    : "border-slate-300 text-slate-700 hover:border-blue-600 hover:text-blue-600"
+                }`}
+              >
+                <FaGithub className="mr-2" />
+                View Source Code
+              </a>
+            )}
           </div>
         </div>
       </div>

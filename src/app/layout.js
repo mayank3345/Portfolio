@@ -1,10 +1,20 @@
+import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import StoreProvider from "@/redux/StoreProvider";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
 
 const baseUrl =
-  process.env.NEXT_PUBLIC_SITE_URL || "https://jabedali.vercel.app";
+  process.env.NEXT_PUBLIC_SITE_URL || "https://portfolio-rose-nu-60.vercel.app";
 export const metadata = {
   metadataBase: new URL(baseUrl),
 
@@ -18,11 +28,11 @@ export const metadata = {
 
   keywords: [
     "Aditya Singh",
-    "Jabed",
-    "Jabed Ali",
+    "Aditya",
+    "Aditya Singh",
     "Aditya Singh Portfolio",
-    "Jabed Ali Portfolio",
-    "Jabed Portfolio",
+    "Aditya Portfolio",
+    "Aditya Portfolio",
     "Portfolio Website",
     "MERN Stack Developer",
     "React Developer",
@@ -84,7 +94,7 @@ export const metadata = {
     siteName: "Aditya Singh Portfolio",
     images: [
       {
-        url: "/images/seo/og-image.png",
+        url: "/images/profile/image.png",
         width: 1200,
         height: 630,
         alt: "Aditya Singh Portfolio",
@@ -103,8 +113,8 @@ export const metadata = {
   },
 
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.ico",
+    icon: "/logo/logo.png",
+    shortcut: "/logo/logo.png",
     apple: "/apple-touch-icon.png",
   },
 
@@ -131,7 +141,7 @@ export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className="h-full"
+      className={`${geistSans.variable} ${geistMono.variable} h-full`}
       data-scroll-behavior="smooth"
       suppressHydrationWarning
     >

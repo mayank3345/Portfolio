@@ -59,10 +59,10 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3">
           <Image
-            src="/logo/web-app-manifest-512x512.png"
+            src="/logo/logo.png"
             alt="Aditya Singh Portfolio Logo"
-            width={45}
-            height={45}
+            width={65}
+            height={65}
             priority
           />
 

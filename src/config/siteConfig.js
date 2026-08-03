@@ -79,9 +79,9 @@ export const siteConfig = {
 
   ogImage: "/images/seo/og-image.png",
 
-  twitterImage: "images/seo/twitter-image.png",
+  twitterImage: "/images/seo/twitter-image.png",
 
-  favicon: "/favicon.ico",
+  favicon: "/logo/logo.png",
 
   appleIcon: "/apple-touch-icon.png",
 

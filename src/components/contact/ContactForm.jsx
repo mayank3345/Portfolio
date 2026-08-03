@@ -15,8 +15,6 @@ import { MdMessage } from "react-icons/md";
 
 export default function ContactForm() {
   const theme = useSelector((state) => state.theme.darkMode);
-  const contactEndpoint =
-    process.env.NEXT_PUBLIC_CONTACT_FORM || "https://formspree.io/f/mzbnkqkr";
 
   const [formData, setFormData] = useState({
     name: "",
@@ -44,8 +42,7 @@ export default function ContactForm() {
     setStatus("");
 
     try {
-      console.log(contactEndpoint);
-      const response = await fetch(process.env.NEXT_PUBLIC_CONTACT_FORM, {
+      const response = await fetch(contactEndpoint, {
         method: "POST",
 
         headers: {
@@ -228,7 +225,7 @@ text-slate-400
                   : "border-green-200 bg-green-50 text-green-700"
               }`}
             >
-              ✅ Thank you! Your message has been sent successfully. I'll get
+              ✅ Thank you! Your message has been sent successfully.I'll get
               back to you soon.
             </div>
           )}

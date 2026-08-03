@@ -3,13 +3,14 @@ export default function PersonSchema() {
     "@context": "https://schema.org",
     "@type": "Person",
 
-    "@id": "https://jabedali.vercel.app/#person",
+    "@id": "https://portfolio-rose-nu-60.vercel.app/",
 
     name: "Aditya Singh",
 
-    url: "https://jabedali.vercel.app/",
+    url: "https://portfolio-rose-nu-60.vercel.app/",
 
-    image: "https://jabedali.vercel.app/images/my_photos/profile.png",
+    image:
+      "https://portfolio-rose-nu-60.vercel.app/images/my_photos/profile.png",
 
     jobTitle: "MERN Stack Developer",
 
