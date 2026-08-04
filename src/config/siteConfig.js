@@ -11,7 +11,9 @@ export const siteConfig = {
   description:
     "Aditya Singh is a Full Stack MERN Developer specializing in React.js, Next.js, Node.js, Express.js, MongoDB, JavaScript, and modern web applications.",
 
-  website: process.env.NEXT_PUBLIC_SITE_URL || "https://jabedali.vercel.app",
+  website:
+    process.env.NEXT_PUBLIC_SITE_URL ||
+    "https://portfolio-rose-nu-60.vercel.app",
 
   locale: "en_US",
 

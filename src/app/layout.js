@@ -94,7 +94,7 @@ export const metadata = {
     siteName: "Aditya Singh Portfolio",
     images: [
       {
-        url: "/images/profile/image.png",
+        url: "/images/my_images/profile.png",
         width: 1200,
         height: 630,
         alt: "Aditya Singh Portfolio",
